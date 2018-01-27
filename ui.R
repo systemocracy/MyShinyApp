@@ -22,7 +22,9 @@ shinyUI(fluidPage(
       checkboxInput("showModel1", "Show/Hide Model 1", value = TRUE),
       checkboxInput("showModel2", "Show/Hide Model 2", value = TRUE),
       p("Model 1 is a 2nd order Polinomial Linear model."),
-      p("Model 2 is a 4th order Polinomial Linear model.")
+      p("Model 2 is a 4th order Polinomial Linear model."),
+      hr(),
+      tags$a(href='https://github.com/systemocracy/MyShinyApp', target='blank', 'Code on github')
     ),
     
     # Show a plot of the generated distribution
